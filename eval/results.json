@@ -1,0 +1,35 @@
+{
+  "dev": {
+    "in_scope_n": 30,
+    "top1_accuracy": 1.0,
+    "top3_accuracy": 1.0,
+    "false_abstain_rate": 0.0,
+    "out_of_scope_n": 12,
+    "correctly_not_answered": 1.0,
+    "exact_status_match": 1.0,
+    "in_scope_misses": [],
+    "out_of_scope_misses": []
+  },
+  "test": {
+    "in_scope_n": 22,
+    "top1_accuracy": 0.909,
+    "top3_accuracy": 0.909,
+    "false_abstain_rate": 0.091,
+    "out_of_scope_n": 9,
+    "correctly_not_answered": 1.0,
+    "exact_status_match": 1.0,
+    "in_scope_misses": [
+      {
+        "q": "My neighbours already planted but I am not sure it is time yet, how do I decide?",
+        "expected": "planting_time",
+        "got": "abstain"
+      },
+      {
+        "q": "No rain for two weeks and the maize is wilting",
+        "expected": "drought_signs",
+        "got": "abstain"
+      }
+    ],
+    "out_of_scope_misses": []
+  }
+}

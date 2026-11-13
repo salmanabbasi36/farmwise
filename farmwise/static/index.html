@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FarmWise Maize Advisor</title>
+<style>
+  :root { --green:#1f4d3a; --leaf:#2e7d4f; --tint:#eaf2e6; --ink:#1b2a22; --muted:#6f8277; --warn:#fff4d6; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: Calibri, Arial, sans-serif; background:#fff; color:var(--ink); }
+  header { background:var(--green); color:#fff; padding:16px; }
+  header h1 { margin:0; font-size:20px; }
+  header p { margin:4px 0 0; font-size:13px; opacity:.85; }
+  main { max-width:720px; margin:0 auto; padding:16px; }
+  .banner { background:var(--warn); border-radius:8px; padding:10px 12px; font-size:13px; margin-bottom:12px; }
+  #log { min-height:240px; display:flex; flex-direction:column; gap:10px; margin-bottom:12px; }
+  .msg { padding:10px 12px; border-radius:10px; max-width:92%; white-space:pre-wrap; line-height:1.4; }
+  .me { align-self:flex-end; background:var(--leaf); color:#fff; }
+  .bot { align-self:flex-start; background:var(--tint); }
+  .bot.refuse, .bot.emergency { background:#fde4de; }
+  .bot.abstain, .bot.out_of_scope { background:#eef0f2; }
+  form { display:flex; gap:8px; }
+  input[type=text] { flex:1; padding:12px; font-size:16px; border:1px solid #c9d4cb; border-radius:8px; }
+  button { padding:12px 16px; font-size:16px; background:var(--leaf); color:#fff; border:0; border-radius:8px; cursor:pointer; }
+  label { font-size:13px; color:var(--muted); display:inline-flex; gap:6px; align-items:center; margin-top:10px; }
+  .chips { display:flex; flex-wrap:wrap; gap:6px; margin-bottom:10px; }
+  .chips button { background:#fff; color:var(--green); border:1px solid var(--leaf); font-size:13px; padding:6px 10px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>FarmWise Maize Advisor</h1>
+  <p>Demo prototype for smallholder maize farmers</p>
+</header>
+<main>
+  <div class="banner">Draft guidance, not yet validated by an agronomist. It cannot give pesticide doses or live prices. Always confirm with your local extension officer.</div>
+  <div class="chips" id="chips"></div>
+  <div id="log" aria-live="polite"></div>
+  <form id="f">
+    <input id="q" type="text" placeholder="Ask about your maize, e.g. worms eating my leaves" autocomplete="off" aria-label="Your question">
+    <button type="submit">Ask</button>
+  </form>
+  <label><input type="checkbox" id="sms"> Short SMS-style answers</label>
+</main>
+<script>
+const log = document.getElementById('log'), q = document.getElementById('q');
+function add(text, cls) {
+  const d = document.createElement('div');
+  d.className = 'msg ' + cls; d.textContent = text; log.appendChild(d);
+  d.scrollIntoView({block:'end'});
+}
+async function ask(text) {
+  add(text, 'me');
+  try {
+    const r = await fetch('/api/ask', {method:'POST', headers:{'Content-Type':'application/json'},
+      body: JSON.stringify({question:text, channel: document.getElementById('sms').checked ? 'sms' : 'web'})});
+    const j = await r.json();
+    add(j.text || j.error || 'Something went wrong.', 'bot ' + (j.status || ''));
+  } catch (e) { add('Cannot reach the advisor. Check that the server is running.', 'bot abstain'); }
+}
+document.getElementById('f').addEventListener('submit', e => {
+  e.preventDefault(); const t = q.value.trim(); if (!t) return; q.value = ''; ask(t);
+});
+['When should I plant?', 'Worms are eating my maize leaves', 'How do I store maize safely?', 'Why are my leaves yellow?']
+  .forEach(t => { const b = document.createElement('button'); b.type = 'button'; b.textContent = t;
+    b.onclick = () => ask(t); document.getElementById('chips').appendChild(b); });
+</script>
+</body>
+</html>

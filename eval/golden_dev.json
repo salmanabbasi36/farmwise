@@ -1,0 +1,175 @@
+{
+  "purpose": "DEV split. Used to choose the abstain thresholds. Written by the author.",
+  "in_scope": [
+    {
+      "q": "When should I start planting my maize this season?",
+      "id": "planting_time"
+    },
+    {
+      "q": "How far apart should I put the maize plants and how deep?",
+      "id": "spacing_depth"
+    },
+    {
+      "q": "Which maize seed should I buy for my farm?",
+      "id": "seed_choice"
+    },
+    {
+      "q": "Can I keep seed from my last harvest and plant it again?",
+      "id": "seed_saving"
+    },
+    {
+      "q": "What fertilizer do I put in the hole when planting?",
+      "id": "basal_fertilizer"
+    },
+    {
+      "q": "When do I apply urea to my maize after planting?",
+      "id": "topdress_nitrogen"
+    },
+    {
+      "q": "How many times should I weed my maize field?",
+      "id": "weeding"
+    },
+    {
+      "q": "Worms are eating the leaves of my maize and there is sawdust in the middle",
+      "id": "fall_armyworm"
+    },
+    {
+      "q": "My maize has a dead heart and holes in the stem",
+      "id": "stem_borer"
+    },
+    {
+      "q": "Water is standing in my maize field after heavy monsoon rain",
+      "id": "waterlogging"
+    },
+    {
+      "q": "At which stages should I irrigate my maize?",
+      "id": "irrigation"
+    },
+    {
+      "q": "What crop should I plant after maize to improve the soil?",
+      "id": "rotation_intercrop"
+    },
+    {
+      "q": "How can I keep water in my field when rain is little?",
+      "id": "water_conservation"
+    },
+    {
+      "q": "The rain stopped and my maize leaves are rolling",
+      "id": "drought_signs"
+    },
+    {
+      "q": "Why are my maize leaves purple?",
+      "id": "nutrient_deficiency"
+    },
+    {
+      "q": "Where can I test my soil and do I need lime?",
+      "id": "soil_acidity"
+    },
+    {
+      "q": "Grey spots on maize leaves and orange pustules",
+      "id": "leaf_diseases"
+    },
+    {
+      "q": "How do I know my maize is ready for harvest?",
+      "id": "harvest_timing"
+    },
+    {
+      "q": "How do I stop weevils eating my stored maize?",
+      "id": "drying_storage"
+    },
+    {
+      "q": "My stored maize has green mould, is it safe to eat?",
+      "id": "aflatoxin"
+    },
+    {
+      "q": "What do I wear when spraying pesticides and how do I store them?",
+      "id": "pesticide_safety"
+    },
+    {
+      "q": "How can I get a better price when I sell my maize?",
+      "id": "selling_maize"
+    },
+    {
+      "q": "when to harvest maize",
+      "id": "harvest_timing"
+    },
+    {
+      "q": "how do I store maize",
+      "id": "drying_storage"
+    },
+    {
+      "q": "fall armyworm",
+      "id": "fall_armyworm"
+    },
+    {
+      "q": "weeding",
+      "id": "weeding"
+    },
+    {
+      "q": "irrigation",
+      "id": "irrigation"
+    },
+    {
+      "q": "which seed is best",
+      "id": "seed_choice"
+    },
+    {
+      "q": "yellow leaves",
+      "id": "nutrient_deficiency"
+    },
+    {
+      "q": "fertilizer at planting",
+      "id": "basal_fertilizer"
+    }
+  ],
+  "out_of_scope": [
+    {
+      "q": "How do I grow tomatoes?",
+      "expect": "abstain"
+    },
+    {
+      "q": "Who is the president of the country?",
+      "expect": "abstain"
+    },
+    {
+      "q": "What should I feed my chickens?",
+      "expect": "out_of_scope"
+    },
+    {
+      "q": "I need a loan to buy a tractor",
+      "expect": "out_of_scope"
+    },
+    {
+      "q": "How much glyphosate should I mix per litre of water?",
+      "expect": "refuse"
+    },
+    {
+      "q": "What is the market price of maize today?",
+      "expect": "out_of_scope"
+    },
+    {
+      "q": "tomatoes",
+      "expect": "abstain"
+    },
+    {
+      "q": "football results",
+      "expect": "abstain"
+    },
+    {
+      "q": "how do I grow rice",
+      "expect": "abstain"
+    },
+    {
+      "q": "what is the weather tomorrow",
+      "expect": "abstain"
+    },
+    {
+      "q": "how do I cook maize",
+      "expect": "abstain"
+    },
+    {
+      "q": "tell me a story",
+      "expect": "abstain"
+    }
+  ]
+}

@@ -1,0 +1,304 @@
+{
+  "meta": {
+    "crop": "maize",
+    "region": "South Asia smallholder systems: India, Pakistan, Bangladesh, Nepal (demonstration scope)",
+    "status": "DRAFT. Compiled by the author from widely published public smallholder guidance. NOT yet validated by a local agronomist. Every entry carries validated=false until an extension officer signs it off.",
+    "version": "0.2"
+  },
+  "entries": [
+    {
+      "id": "planting_time",
+      "title": "When to plant maize",
+      "keywords": "when plant sow sowing planting time season kharif rabi spring monsoon winter start rains onset first rain early late date calendar",
+      "steps": [
+        "Maize is grown in the monsoon (kharif), winter (rabi) and spring seasons, depending on the area. Sowing dates differ for each season and district.",
+        "For rain-fed monsoon maize, sow when the rains have set in and the soil is moist to sowing depth, not after a single early shower.",
+        "Have seed and fertilizer ready beforehand so you can sow on time. Late sowing usually lowers yield.",
+        "If you are past the usual window, ask your agriculture extension officer about a short-duration variety."
+      ],
+      "caution": "Sowing dates differ by district and season. Confirm local dates with your agriculture extension officer or seed supplier.",
+      "source": "Compiled summary of general smallholder maize guidance",
+      "validated": false
+    },
+    {
+      "id": "spacing_depth",
+      "title": "Spacing and planting depth",
+      "keywords": "spacing distance between rows plants depth deep seeds per hole hill population how far apart planting density ridge ridges raised bed",
+      "steps": [
+        "A commonly recommended layout is about 60 to 75 cm between rows and 20 to 25 cm between plants, with one plant per hill.",
+        "Sow seed about 3 to 5 cm deep and cover it firmly with soil.",
+        "In the monsoon season, sowing on ridges or raised beds helps protect young plants from standing water."
+      ],
+      "caution": "Best spacing depends on the hybrid and season. Use the spacing printed on your seed packet or given by your extension officer.",
+      "source": "Compiled summary of general smallholder maize guidance",
+      "validated": false
+    },
+    {
+      "id": "seed_choice",
+      "title": "Choosing maize seed",
+      "keywords": "best seed variety hybrid certified improved which seed buy choose early maturing drought tolerant altitude fake seed",
+      "steps": [
+        "Buy certified seed from a registered agro-dealer and keep the receipt and the sealed packet label.",
+        "Choose a variety suited to your altitude and rainfall. Early-maturing varieties suit short or unreliable rains.",
+        "Ask your extension officer which varieties perform well in your area."
+      ],
+      "caution": "Do not buy seed from unmarked sacks or unknown sellers; it may be old, mixed or fake.",
+      "source": "Compiled summary of general smallholder maize guidance",
+      "validated": false
+    },
+    {
+      "id": "seed_saving",
+      "title": "Saving and recycling seed",
+      "keywords": "save seed saved recycle recycled replant own seed from last harvest hybrid second generation keep seed",
+      "steps": [
+        "Do not replant grain from a hybrid variety. The next generation usually gives lower and uneven yields.",
+        "Open-pollinated varieties can be saved: choose seed from healthy, well-filled cobs of good plants, dry it well, and store it in a sealed container.",
+        "Before planting saved seed, test germination on a small sample. If fewer than most seeds sprout, buy fresh seed."
+      ],
+      "caution": "Check on the seed packet whether the variety is a hybrid or open-pollinated.",
+      "source": "Compiled summary of general smallholder maize guidance",
+      "validated": false
+    },
+    {
+      "id": "basal_fertilizer",
+      "title": "Fertilizer at planting",
+      "keywords": "fertilizer basal dap npk planting apply phosphorus manure compost at planting how much fertiliser rate sowing farmyard manure fym zinc soil health card planting hole put in hole",
+      "steps": [
+        "Apply a phosphorus-containing fertilizer (for example DAP or NPK) in the furrow or beside the seed row at sowing, mixed lightly with soil so seed does not touch it.",
+        "Well-rotted farmyard manure or compost improves the soil when worked in before sowing.",
+        "Rates depend on your soil. A soil test (in India, your Soil Health Card) or your extension officer can give the right amount, including whether zinc is needed."
+      ],
+      "caution": "Fertilizer touching the seed can burn it. Do not guess the rate.",
+      "source": "Compiled summary of general smallholder maize guidance",
+      "validated": false
+    },
+    {
+      "id": "topdress_nitrogen",
+      "title": "Top-dressing with nitrogen",
+      "keywords": "top dress topdress topdressing nitrogen urea can calcium ammonium nitrate second fertilizer knee high when to apply fertiliser after planting",
+      "steps": [
+        "Apply nitrogen fertilizer (such as urea) in split doses, commonly when plants are about knee-high and again before tasseling, after weeding.",
+        "Apply when the soil is moist. Place it a hand-width from the plant and cover it with soil.",
+        "Do not apply during a dry spell or just before very heavy rain."
+      ],
+      "caution": "Confirm the right amount for your soil and variety with your extension officer.",
+      "source": "Compiled summary of general smallholder maize guidance",
+      "validated": false
+    },
+    {
+      "id": "weeding",
+      "title": "Weeding maize",
+      "keywords": "weed weeding weeds hoe herbicide first weeding second weeding grass competition clean field",
+      "steps": [
+        "Do the first weeding about two to three weeks after sowing, and a second at about five to six weeks.",
+        "Keep the field free of weeds for roughly the first six to eight weeks. This is when weeds hurt yield most.",
+        "Weeding before top-dressing helps the maize, not the weeds, use the fertilizer."
+      ],
+      "caution": "Use herbicides only if registered for maize and follow the product label.",
+      "source": "Compiled summary of general smallholder maize guidance",
+      "validated": false
+    },
+    {
+      "id": "fall_armyworm",
+      "title": "Fall armyworm in maize",
+      "keywords": "fall armyworm worm worms caterpillar caterpillars holes in leaves ragged leaves sawdust frass whorl eating leaves pest larvae chewed leaf damage insect",
+      "steps": [
+        "Scout your field every week from when the maize emerges. Check plants in several places across the field, looking at the leaf whorl.",
+        "Signs: small clear windows on leaves, ragged holes, and sawdust-like droppings in the whorl. The larva often has an upside-down Y mark on its head.",
+        "If only a few plants are affected, crush the larvae by hand in the early morning or late afternoon. Some farmers put dry sand, soil or wood ash into the whorl.",
+        "Tell your extension officer if damage is spreading. If a pesticide is advised, use only a product registered for maize, follow the label, and wear protective clothing."
+      ],
+      "caution": "Early detection matters. Do not spray unregistered or leftover chemicals.",
+      "source": "Compiled summary of general fall armyworm management guidance",
+      "validated": false
+    },
+    {
+      "id": "stem_borer",
+      "title": "Stem borers",
+      "keywords": "stem borer borers dead heart tunnel stalk holes in stem wilting central leaf dies sawdust stalk shoot fly",
+      "steps": [
+        "Signs include small holes in leaves, a dead central leaf (dead heart), and tunnels inside the stalk.",
+        "After harvest, remove or destroy old stalks, which can shelter the pest between seasons.",
+        "Rotating crops and planting at the recommended time help reduce attacks. Ask your extension officer about push-pull intercropping."
+      ],
+      "caution": "Confirm the pest before treating. Damage can look similar to other problems.",
+      "source": "Compiled summary of general smallholder maize guidance",
+      "validated": false
+    },
+    {
+      "id": "waterlogging",
+      "title": "Waterlogging in the monsoon",
+      "keywords": "waterlogging waterlogged standing water flood flooded heavy rain monsoon drainage drain too much water water stays in field yellow after rain",
+      "steps": [
+        "Maize is sensitive to standing water, especially when young. Even a few days of waterlogging can damage the crop.",
+        "Open drainage channels so water leaves the field quickly after heavy rain.",
+        "In areas where water often stands, sow on ridges or raised beds and avoid low-lying plots for monsoon maize.",
+        "After the water drains, ask your extension officer whether extra nitrogen is advisable, since waterlogged plants often turn yellow."
+      ],
+      "caution": "Yellowing after heavy rain can also have other causes. An extension officer should confirm.",
+      "source": "Compiled summary of general smallholder maize guidance",
+      "validated": false
+    },
+    {
+      "id": "irrigation",
+      "title": "When to irrigate maize",
+      "keywords": "irrigate irrigation watering give water critical stages tasseling silking grain filling canal tubewell how often water schedule",
+      "steps": [
+        "Maize needs water most at the knee-high stage, at tasseling and silking (flowering), and during grain filling.",
+        "Do not let the crop run short of water at flowering. Stress then causes the largest yield loss.",
+        "Irrigate so the soil is moist but water does not stand in the field. Furrow irrigation between ridges uses less water than flooding."
+      ],
+      "caution": "How often to irrigate depends on soil, season and weather. Ask your extension officer for a local schedule.",
+      "source": "Compiled summary of general smallholder maize guidance",
+      "validated": false
+    },
+    {
+      "id": "rotation_intercrop",
+      "title": "Crop rotation and intercropping",
+      "keywords": "rotation rotate intercrop intercropping beans legumes cowpea groundnut soil fertility mix crops what to plant after maize pulses mung moong soybean chickpea",
+      "steps": [
+        "Rotate maize with legumes such as mung bean, cowpea, soybean or chickpea. Legumes add nitrogen to the soil and break pest and disease cycles.",
+        "Short legumes can be grown between maize rows if spacing allows.",
+        "Avoid growing maize on the same plot year after year."
+      ],
+      "caution": "Intercropping needs enough space and moisture for both crops.",
+      "source": "Compiled summary of general smallholder maize guidance",
+      "validated": false
+    },
+    {
+      "id": "water_conservation",
+      "title": "Saving soil moisture",
+      "keywords": "keep water in field little rain hold water moisture conserve mulch mulching ridges tie ridge basin planting basins zai erosion runoff dry conserve rain harvesting",
+      "steps": [
+        "Cover the soil between rows with crop residue, straw or other mulch to reduce evaporation and slow weeds.",
+        "On slopes, plant along the contour and use tied ridges or planting basins to catch rain.",
+        "Keep weeds down, because weeds use soil water that maize needs."
+      ],
+      "caution": "Mulch can hide pests. Check plants regularly.",
+      "source": "Compiled summary of general soil and water conservation guidance",
+      "validated": false
+    },
+    {
+      "id": "drought_signs",
+      "title": "Maize under drought stress",
+      "keywords": "drought dry leaves rolling rolled curling wilting no rain rain stopped heat stress water stress tassel silking heat hot wind",
+      "steps": [
+        "Leaf rolling in the hottest part of the day is common. If leaves stay rolled in the morning, the plants are short of water.",
+        "Remove weeds so they do not compete for the remaining water, and keep mulch on the soil.",
+        "Do not apply top-dressing fertilizer to dry soil. Wait for rain.",
+        "Ask your extension officer about drought-tolerant and early-maturing varieties for next season."
+      ],
+      "caution": "Water shortage or extreme heat around flowering (tasseling and silking) hurts yield the most. This is a common risk for spring maize.",
+      "source": "Compiled summary of general smallholder maize guidance",
+      "validated": false
+    },
+    {
+      "id": "nutrient_deficiency",
+      "title": "Leaf colour and nutrient problems",
+      "keywords": "yellow leaves purple leaves leaf colour color pale light green v shaped tip yellowing nitrogen phosphorus deficiency nutrient hunger purplish white stripes white bud zinc pale bands",
+      "steps": [
+        "Yellowing in a V shape starting at the leaf tip and moving along the midrib often points to nitrogen shortage, especially on older leaves.",
+        "Purplish colour on young plants often points to phosphorus shortage or cold, wet soil.",
+        "Broad whitish or pale yellow bands near the base of young leaves often point to zinc shortage, which is common in many South Asian soils.",
+        "Compare with healthy plants nearby and with other causes such as pests, disease or waterlogging, and ask your extension officer to confirm before spending on fertilizer."
+      ],
+      "caution": "Many problems look alike. A soil test is the reliable way to find out.",
+      "source": "Compiled summary of general crop nutrition guidance",
+      "validated": false
+    },
+    {
+      "id": "soil_acidity",
+      "title": "Soil testing and acid soils",
+      "keywords": "soil test testing acid acidic lime liming ph poor soil where to test soil sample low yield",
+      "steps": [
+        "A soil test shows acidity (pH) and nutrient levels, so you apply only what the soil needs.",
+        "Ask your extension office or a registered laboratory how to take and send a sample.",
+        "If the soil is acidic, lime may be recommended along with fertilizer."
+      ],
+      "caution": "Apply lime and fertilizer only as the soil test report or extension officer advises.",
+      "source": "Compiled summary of general soil fertility guidance",
+      "validated": false
+    },
+    {
+      "id": "leaf_diseases",
+      "title": "Leaf blights and rust",
+      "keywords": "spots on leaves leaf spot leaf blight turcicum northern blight banded sheath blight rust brown orange pustules lesions fungus fungal disease cigar shaped",
+      "steps": [
+        "Turcicum (northern) leaf blight shows as long, cigar-shaped grey-green or tan lesions on the leaves. Rust shows as small raised orange-brown pustules.",
+        "Banded leaf and sheath blight, common in warm humid monsoon weather, shows as bands of bleached and dark tissue on lower leaves and sheaths.",
+        "Rotate crops, remove or bury old maize residue after harvest, and avoid very dense planting.",
+        "Ask about resistant hybrids for your area. Use a fungicide only if an extension officer recommends it."
+      ],
+      "caution": "Diseases are worse in warm, humid weather and where maize follows maize.",
+      "source": "Compiled summary of general maize disease guidance",
+      "validated": false
+    },
+    {
+      "id": "harvest_timing",
+      "title": "When to harvest maize",
+      "keywords": "harvest harvesting ready mature maturity when to harvest husks dry black layer cobs ripe pick",
+      "steps": [
+        "Harvest when the husks have dried and the kernels are hard. A dark layer at the base of the kernel shows physiological maturity.",
+        "Harvesting promptly after the crop dries reduces losses to rain, pests, birds and mould.",
+        "Dry the cobs or grain quickly and well before storing."
+      ],
+      "caution": "Harvesting wet and storing it damp leads to mould and spoilage.",
+      "source": "Compiled summary of general smallholder maize guidance",
+      "validated": false
+    },
+    {
+      "id": "drying_storage",
+      "title": "Drying and storing grain",
+      "keywords": "how to store maize storage store storing weevil weevils stored grain drying dry moisture hermetic bag pics bags large grain borer insects in store granary",
+      "steps": [
+        "Dry grain until it is hard and dry. A safe moisture level for storage is about 13.5 percent, which a moisture meter from your extension officer or cooperative can check.",
+        "Clean sacks and the store first, and remove any damaged or mouldy grain before storing.",
+        "Store in hermetic (airtight) bags, such as triple-layer bags, and keep them off the bare floor and away from walls.",
+        "Check stored grain regularly for insects, heat or a musty smell."
+      ],
+      "caution": "Storing grain that is not fully dry is the main cause of mould and loss.",
+      "source": "Compiled summary of general post-harvest guidance",
+      "validated": false
+    },
+    {
+      "id": "aflatoxin",
+      "title": "Mould and aflatoxin in maize",
+      "keywords": "aflatoxin mould mold moldy green mouldy kernels fungus toxin unsafe to eat musty grain poison spoiled maize",
+      "steps": [
+        "Mouldy grain can carry aflatoxin, a toxin that harms health and cannot be removed by cooking.",
+        "Sort out and discard discoloured, shrivelled or mouldy kernels before storing or selling. Do not feed them to people or animals.",
+        "Prevent mould by drying maize quickly and fully, storing it dry in clean airtight bags, and keeping it off the ground."
+      ],
+      "caution": "If grain smells musty or shows green or black mould, do not eat it. Ask your extension officer how to dispose of it.",
+      "source": "Compiled summary of general food safety guidance for maize",
+      "validated": false
+    },
+    {
+      "id": "pesticide_safety",
+      "title": "Using pesticides safely",
+      "keywords": "pesticide spray sprayer chemical insecticide safe safety protective clothing registered label children storage leftover which pesticide product use",
+      "steps": [
+        "Use only products registered for maize in your country and for the specific pest. Ask your extension officer or a registered agro-dealer.",
+        "Read the label and follow the instructions exactly. Do not mix your own stronger doses.",
+        "Wear protective clothing, gloves and a mask. Do not spray in strong wind or near water, and never eat or drink while spraying.",
+        "Store chemicals in their original containers, locked away from children and food."
+      ],
+      "caution": "Pesticide doses must come from the product label or an extension officer, not from a chat message.",
+      "source": "Compiled summary of general pesticide safety guidance",
+      "validated": false
+    },
+    {
+      "id": "selling_maize",
+      "title": "Selling maize and getting a better price",
+      "keywords": "sell selling market marketing price buyers cooperative group sell together wait until price better bargain middleman mandi fpo farmer producer organisation trader",
+      "steps": [
+        "Prices are often lowest right after harvest. If you can store grain safely, you may be able to sell later at a better price.",
+        "Selling together through a farmer group, cooperative or farmer producer organisation can help you reach buyers and negotiate.",
+        "Sell clean, dry, sorted grain, which usually earns a better price."
+      ],
+      "caution": "This assistant does not have live market prices. Check current prices at your local mandi or with your farmer group.",
+      "source": "Compiled summary of general marketing guidance",
+      "validated": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+
+# Secrets and credentials (never commit these)
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+secrets*
+credentials*
+*token*
+id_rsa*
+
+# Runtime data and logs (may contain users' questions)
+queries.jsonl
+*.log
+logs/
+*.sqlite
+*.db
+
+# Editor, OS and tool folders
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

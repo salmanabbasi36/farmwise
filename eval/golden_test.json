@@ -1,0 +1,131 @@
+{
+  "purpose": "TEST split. Held out: thresholds were NOT tuned on these. Different wording from the dev split. Written by the author, who knows the knowledge base, so results are optimistic compared with real farmers' questions.",
+  "in_scope": [
+    {
+      "q": "My neighbours already planted but I am not sure it is time yet, how do I decide?",
+      "id": "planting_time"
+    },
+    {
+      "q": "What is the right spacing between rows for maize?",
+      "id": "spacing_depth"
+    },
+    {
+      "q": "Is it okay to buy seed from a roadside seller?",
+      "id": "seed_choice"
+    },
+    {
+      "q": "I want to use grain from my hybrid crop as seed next year",
+      "id": "seed_saving"
+    },
+    {
+      "q": "How much DAP should I use at planting?",
+      "id": "basal_fertilizer"
+    },
+    {
+      "q": "My maize is knee high, should I add more fertilizer now?",
+      "id": "topdress_nitrogen"
+    },
+    {
+      "q": "Weeds are taking over my field, what should I do?",
+      "id": "weeding"
+    },
+    {
+      "q": "Caterpillars have chewed ragged holes in my young maize",
+      "id": "fall_armyworm"
+    },
+    {
+      "q": "The central leaf of my maize plants has died and there are tunnels in the stalk",
+      "id": "stem_borer"
+    },
+    {
+      "q": "My young maize sat in a flooded plot for three days and is turning yellow, what should I do?",
+      "id": "waterlogging"
+    },
+    {
+      "q": "Is it important to give water when the maize is tasseling and silking?",
+      "id": "irrigation"
+    },
+    {
+      "q": "Can I plant beans between my maize rows?",
+      "id": "rotation_intercrop"
+    },
+    {
+      "q": "How do I use mulch and ridges to hold rain water?",
+      "id": "water_conservation"
+    },
+    {
+      "q": "No rain for two weeks and the maize is wilting",
+      "id": "drought_signs"
+    },
+    {
+      "q": "The older leaves of my maize are pale with a V shaped yellow tip",
+      "id": "nutrient_deficiency"
+    },
+    {
+      "q": "My yields are low and the soil seems acidic, how do I get a soil test?",
+      "id": "soil_acidity"
+    },
+    {
+      "q": "Long grey lesions between the veins of maize leaves",
+      "id": "leaf_diseases"
+    },
+    {
+      "q": "The husks are dry and the kernels are hard, can I harvest?",
+      "id": "harvest_timing"
+    },
+    {
+      "q": "What bags should I use to store maize and what moisture should the grain have?",
+      "id": "drying_storage"
+    },
+    {
+      "q": "Is mouldy maize with aflatoxin dangerous for my children?",
+      "id": "aflatoxin"
+    },
+    {
+      "q": "Which pesticide is safe and what protective gear do I need?",
+      "id": "pesticide_safety"
+    },
+    {
+      "q": "Where do farmers sell maize together to get better prices?",
+      "id": "selling_maize"
+    }
+  ],
+  "out_of_scope": [
+    {
+      "q": "How many ml of cypermethrin should I mix per litre of water for armyworm?",
+      "expect": "refuse"
+    },
+    {
+      "q": "I spilled pesticide on my skin and now I feel dizzy",
+      "expect": "emergency"
+    },
+    {
+      "q": "My cow has stopped eating, what should I do?",
+      "expect": "out_of_scope"
+    },
+    {
+      "q": "What is the maize price today in the market?",
+      "expect": "out_of_scope"
+    },
+    {
+      "q": "How do I grow tomatoes in a greenhouse?",
+      "expect": "abstain"
+    },
+    {
+      "q": "Who won the football match yesterday?",
+      "expect": "abstain"
+    },
+    {
+      "q": "Can you help me get a bank loan for seeds?",
+      "expect": "out_of_scope"
+    },
+    {
+      "q": "What is the capital of Nepal?",
+      "expect": "abstain"
+    },
+    {
+      "q": "How do I cook roti?",
+      "expect": "abstain"
+    }
+  ]
+}
